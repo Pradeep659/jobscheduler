@@ -60,7 +60,7 @@ const JobForm = ({ onNewJob }) => {
                 <Toolbar>
                     <IconButton
                         size="large"
-                        edge="start" 
+                        edge="start"
                         color="inherit"
                         aria-label="menu"
                         sx={{ mr: 2 }}
