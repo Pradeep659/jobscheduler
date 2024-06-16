@@ -19,18 +19,15 @@ Setup
 Backend (Go)
 Clone the repository:
 
-sh
 Copy code
 git clone https://github.com/Pradeep659/jobscheduler.git
 cd job-jobscheduler/backend
 Install dependencies:
 
-sh
 Copy code
 go mod tidy
 Run the backend server:
 
-sh
 Copy code
 go run main.go
 Backend API Endpoints:
@@ -56,7 +53,6 @@ Copy code
 npm install
 Run the frontend application:
 
-sh
 Copy code
 npm start
 Access the frontend in your browser:
@@ -71,11 +67,11 @@ React Components: The UI is built using functional components and hooks for stat
 WebSocket Integration: The frontend establishes a WebSocket connection to receive real-time updates and refresh the job list dynamically.
 Running Tests
 Backend Tests: To run tests for the Go backend, use:
-sh
+
 Copy code
 go test ./...
 Frontend Tests: To run tests for the React frontend, use:
-sh
+
 Copy code
 npm test
 Directory Structure
